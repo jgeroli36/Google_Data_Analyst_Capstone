@@ -8,7 +8,6 @@ ALTER TABLE `hi-case-report.Cases.Case_Details_2`
   ADD COLUMN IF NOT EXISTS Datetime_opened DATETIME,
   ADD COLUMN IF NOT EXISTS Datetime_closed DATETIME;
 
--- FIX 1: Split UPDATE assignments with commas instead of 'AND'
 UPDATE `hi-case-report.Cases.Case_Details_2`
   SET Datetime_opened = SAFE.PARSE_DATETIME('%m/%d/%Y %I:%M %p', CAST(`Date opened` AS STRING)),
       Datetime_closed = SAFE.PARSE_DATETIME('%m/%d/%Y %I:%M %p', CAST(`Date closed` AS STRING))
