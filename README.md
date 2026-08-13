@@ -13,9 +13,9 @@ A revenue and engagement manager for the parody company “Homosapien Intrigue�
 Analysis tools:
 
 * BigQuery SQL  
-  * \`Data\_cleaning.sql\` \- cleaned the raw dataset  
-  * \`Tableau\_Input.sql\` and \`Tableau\_Inpu\_Viewt.sql\` \- created ingestible table for Tableau  
-  * \`date\_table.sql’ \- a placement table for creating date relationships for Tableau timeline line chart    
+  * [\`Data\_cleaning.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Data_cleaning.sql)- cleaned the raw dataset
+  * [\`Tableau\_Input.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Tableau_Input.sql) and [\`Tableau\_Inpu\_Viewt.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Tableau_Input_View.sql)- created ingestible table for Tableau  
+  * [\`date\_table.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/date_table.sql)- a placement table for creating date relationships for Tableau timeline line chart    
 * Tableau Desktop  
   * Case Count & Avg Handle Time  
     * Bubble chart  
@@ -29,7 +29,7 @@ Analysis tools:
 **Top Insights found during analysis:**
 
 * BigQuery SQL  
-  * \`Case\_metrics\_sum\_max\_avg.sql\` and \`Case\_max\_handle\_time\_date\_opened\_closed.sql\` used to find the following:  
+  * [\`Case\_metrics\_sum\_max\_avg.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Case_metrics_sum_max_avg.sql) and [\`Case\_max\_handle\_time\_date\_opened\_closed.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Case_max_handle_time_date_opened_closed.sql) used to find the following:  
     * There is a large amount of unidentified or “N/A” cases  
       * Total Case count 86, Avg Handle Time 7 days 19 hrs 11 mins, Total Handle Time All Cases 662 days 22 hrs 26 mins, and Max Case Handle Time 195 days 22 hrs 33 mins  
       * These are chalked up to “user error” as the customer service agents did not correctly document the case category in Salesforce (coaching opportunity for more accurate data compiling)  
@@ -44,9 +44,10 @@ Analysis tools:
       * Opened 1/2/26, Closed 7/17/26  
     * Case category “Discrepancy” has the heaviest combined burden  
       * Total Case count 78, Avg Handle Time 11 days 22 hrs, Total Handle Time All Cases 929 days 11 hrs 51 mins, and Max Case Handle Time 91 days 2 hrs 12 mins  
-  * \`Case\_avg\_daily\_opened\_closed.sql\`  
+  * [\`Case\_avg\_daily\_opened\_closed.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Case_avg_daily_opened_closed.sql)  
     * From 1/1/26 to 3/31/26, Avg Daily Opened cases:18.63, Avg Closed cases: 14  
-* Tableau Charts  
+* Tableau Charts
+  * [\`count_opened_and_closed_cases_per_day.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/count_opened_and_closed_cases_per_day.sql)
   * An uptick in cases from 2025 EOY to 2026 Q1 is due to it being peak compliance season  
   * Maximum Divergence (Opened vs closed): 49 \- Occurred on Jan 4, 26 (128 vs 79\)  
   * Minimum Divergence (Opened vs closed): 1 \- Occurred on Feb 8, 26 (119 vs 120\)
