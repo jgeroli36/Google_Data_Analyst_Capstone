@@ -1,0 +1,5 @@
+CREATE OR REPLACE TABLE `hi-case-report.Cases.Q1_date_table` AS
+SELECT 
+  date_day
+FROM 
+  UNNEST(GENERATE_DATE_ARRAY(DATE '2026-01-01', DATE '2026-12-31', INTERVAL 1 DAY)) AS date_day;
