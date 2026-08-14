@@ -13,7 +13,7 @@ Analysis tools:
 
 * BigQuery SQL  
   * [\`Data\_cleaning.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/263a8ba12074dece5a14f6962307b1d76eff9b8b/Google_Data_Analyst_Case_Study/Data_cleaning.sql)- cleaned the raw dataset
-  * [\`Tableau\_Input.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Tableau_Input.sql) and [\`Tableau\_Inpu\_Viewt.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Tableau_Input_View.sql)- created ingestible table for Tableau  
+  * [\`Tableau\_Input.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Tableau_Input.sql) and [\`Tableau\_Inpu\_View.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Tableau_Input_View.sql)- created ingestible table for Tableau  
   * [\`date\_table.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/date_table.sql)- a placement table for creating date relationships for Tableau timeline line chart    
 * Tableau Desktop  
   * Case Count & Avg Handle Time  
