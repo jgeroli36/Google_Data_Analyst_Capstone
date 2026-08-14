@@ -45,12 +45,20 @@ Analysis tools:
     * Case category “Discrepancy” has the heaviest combined burden  
       * Total Case count 78, Avg Handle Time 11 days 22 hrs, Total Handle Time All Cases 929 days 11 hrs 51 mins, and Max Case Handle Time 91 days 2 hrs 12 mins  
   * [\`Case\_avg\_daily\_opened\_closed.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/Case_avg_daily_opened_closed.sql)  
-    * From 1/1/26 to 3/31/26, Avg Daily Opened cases:18.63, Avg Closed cases: 14  
-* Tableau Charts
+    * From 1/1/26 to 3/31/26, Avg Daily Opened cases: 18.63, Avg Closed cases: 14  
+
+## 📊 Tableau Dashboard
+
+Click the image below to view the interactive dashboard on Tableau Public:
+
+[![Tableau Dashboard Preview](Tableau_HI_Dashboard.png)](https://public.tableau.com/app/profile/jeremie.gero.limoges/viz/Retirement_Investment_Customer_Service_Case_Analysis/Dashboard1)
+
+> 🔗 **Interactive Link:** [View full dashboard on Tableau Public](https://public.tableau.com/app/profile/jeremie.gero.limoges/viz/Retirement_Investment_Customer_Service_Case_Analysis/Dashboard1)
+
+  * An uptick in cases from 2025 EOY to 2026 Q1 is due to it being peak compliance season
   * [\`count_opened_and_closed_cases_per_day.sql\`](https://github.com/jgeroli36/Google_Data_Analyst_Capstone/blob/2f9069591177f5dd55eb9fea3100f7b1be4a1f70/Google_Data_Analyst_Case_Study/count_opened_and_closed_cases_per_day.sql)
-  * An uptick in cases from 2025 EOY to 2026 Q1 is due to it being peak compliance season  
-  * Maximum Divergence (Opened vs closed): 49 \- Occurred on Jan 4, 26 (128 vs 79\)  
-  * Minimum Divergence (Opened vs closed): 1 \- Occurred on Feb 8, 26 (119 vs 120\)
+    * Maximum Divergence (Opened vs closed): 49 \- Occurred on Jan 4, 26 (128 vs 79\)  
+    * Minimum Divergence (Opened vs closed): 1 \- Occurred on Feb 8, 26 (119 vs 120\)
 
 **Recommendations for Improvement**
 
@@ -63,7 +71,7 @@ Analysis tools:
     * Operations: Shift staff to front-line triage and set up a dedicated Slack bridge with engineering.  
     * Post-Incident: Hold a root-cause post-mortem with engineering and build auto-routing rules for future error logs.  
   * High Volume: Manual Causes (e.g., data entry errors)  
-    * Dedicated Onboarding Task Force: Create a specialized customer success team to provide white-glove setup support for SMB clients who lack the technical resources to integrate via APIs independently.
+    * Dedicated Onboarding Task Force: Create a specialized customer success team to provide white-glove setup support for clients who lack the technical resources to integrate via APIs independently.
 
 **Addressing Conversation Rates and client retention/upgrade:**
 
@@ -83,7 +91,7 @@ Analysis tools:
 **Top 3 metrics to define success:**
 
 1. Case Handle Time (CHT)  
-   1. Why to use it: Measures operational efficiency. Increasing sales conversions naturally spikes incoming workload; tracking CHT ensures high lead volume does not degrade the speed of processing or onboarding.  
+   1. Why to use it: Measures operational efficiency. Increasing sales conversions naturally spikes incoming workload; tracking CHT ensures high lead volume does not degrade the speed of processing or onboarding. 
    2. How to use it: Monitor CHT alongside conversion spikes.  
    3. Success signal: CHT decreases or remains stable as conversion rates rise, showing that processes are streamlined.  
    4. Warning signal: A rising CHT indicates that agents or systems are struggling with higher complexity or volume, risking drop-offs before transactions complete.  
