@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31043729/README.md)
 **An Experimental Case Study on Retirement and Investment Client Cases**
 
 A revenue and engagement manager for the parody company “Homosapien Intrigue” has approached this data analyst with the following business need:
